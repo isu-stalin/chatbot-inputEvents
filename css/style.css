@@ -1,15 +1,15 @@
-/* * {
+* {
     box-sizing: border-box;
 }
 
-body {
-    margin: 0;
+.wrapper{
+  margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
+    /* flex-direction: column; */
     height: 100vh;
     background: #fff;
 }
-
 .sidebar {
     width: 280px;
     padding: 24px;
@@ -89,7 +89,7 @@ body {
 .card div:last-child {
     font-size: 14px;
     color: #555;
-} */
+}
 
 
 #chat {

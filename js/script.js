@@ -1,47 +1,47 @@
-// const btn = document.querySelector("button");
+const btn = document.querySelector("button");
 
-// btn.addEventListener("click", createCard);
-// function createCard() {
-//   const nameInput = document.querySelector("#name");
-//   const professionInput = document.querySelector("#profession");
-//   const bioInput = document.querySelector("#bio");
+btn.addEventListener("click", createCard);
+function createCard() {
+  const nameInput = document.querySelector("#name");
+  const professionInput = document.querySelector("#profession");
+  const bioInput = document.querySelector("#bio");
 
-//   const name = nameInput.value.trim();
-//   const profession = professionInput.value.trim();
-//   const bio = bioInput.value.trim();
+  const name = nameInput.value.trim();
+  const profession = professionInput.value.trim();
+  const bio = bioInput.value.trim();
 
-//   if (!name || !profession || !bio) {
-//     console.log("empty");
-//     return;
-//   }
+  if (!name || !profession || !bio) {
+    console.log("empty");
+    return;
+  }
 
-//   const card = document.createElement("div");
-//   card.className = "card";
+  const card = document.createElement("div");
+  card.className = "card";
 
-//   const circle = document.createElement("div");
-//   circle.className = "circle";
-//   circle.textContent = name[0].toUpperCase();
+  const circle = document.createElement("div");
+  circle.className = "circle";
+  circle.textContent = name[0].toUpperCase();
 
-//   const nameEl = document.createElement("div");
-//   nameEl.textContent = name;
+  const nameEl = document.createElement("div");
+  nameEl.textContent = name;
 
-//   const professionEl = document.createElement("div");
-//   professionEl.textContent = profession;
+  const professionEl = document.createElement("div");
+  professionEl.textContent = profession;
 
-//   const bioEl = document.createElement("div");
-//   bioEl.textContent = bio;
+  const bioEl = document.createElement("div");
+  bioEl.textContent = bio;
 
-//   card.appendChild(circle);
-//   card.appendChild(nameEl);
-//   card.appendChild(professionEl);
-//   card.appendChild(bioEl);
+  card.appendChild(circle);
+  card.appendChild(nameEl);
+  card.appendChild(professionEl);
+  card.appendChild(bioEl);
 
-//   document.querySelector("#cardContainer").appendChild(card);
+  document.querySelector("#cardContainer").appendChild(card);
 
-//   nameInput.value = "";
-//   professionInput.value = "";
-//   bioInput.value = "";
-// }
+  nameInput.value = "";
+  professionInput.value = "";
+  bioInput.value = "";
+}
 
 
 
